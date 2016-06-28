@@ -48,24 +48,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     
-    
-   /**
-    
-    
-    func updateFeed(url: NSURL, completion: (feed: Feed?) -> Void) {
-        let request = NSURLRequest(URL: url)
-        let task = NSURLSession.sharedSession().dataTaskWithRequest(request) { (data, response, error) -> Void in
-            if error == nil && data != nil {
-                let feed = Feed(data: data!, sourceURL: url)
-                NSOperationQueue.mainQueue().addOperationWithBlock({ () -> Void in
-                    completion(feed: feed)
-                })
-            }
-            
-        }
-        
-        task.resume()
-    }
-**/
-}
+  }
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EA6AA8CA1D21801F002A06DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AA8C91D21801F002A06DF /* AppDelegate.swift */; };
-		EA6AA8CC1D21801F002A06DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AA8CB1D21801F002A06DF /* ViewController.swift */; };
 		EA6AA8CF1D21801F002A06DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6AA8CD1D21801F002A06DF /* Main.storyboard */; };
 		EA6AA8D11D218020002A06DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6AA8D01D218020002A06DF /* Assets.xcassets */; };
 		EA6AA8D41D218020002A06DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6AA8D21D218020002A06DF /* LaunchScreen.storyboard */; };
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		EA6AA8C61D21801F002A06DF /* appBeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appBeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6AA8C91D21801F002A06DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA6AA8CB1D21801F002A06DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA6AA8CE1D21801F002A06DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA6AA8D01D218020002A06DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA6AA8D31D218020002A06DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				EA6AA8C91D21801F002A06DF /* AppDelegate.swift */,
-				EA6AA8CB1D21801F002A06DF /* ViewController.swift */,
 				EA6AA8CD1D21801F002A06DF /* Main.storyboard */,
 				EA6AA8D01D218020002A06DF /* Assets.xcassets */,
 				EA6AA8D21D218020002A06DF /* LaunchScreen.storyboard */,
@@ -164,7 +161,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC5D3EA1D22AFA400578A53 /* TableViewCellEvents.swift in Sources */,
-				EA6AA8CC1D21801F002A06DF /* ViewController.swift in Sources */,
 				EA6AA8DC1D2180BD002A06DF /* TableViewController.swift in Sources */,
 				EAC5D3DC1D22196B00578A53 /* FeedItem.swift in Sources */,
 				EAC5D3DE1D221AFF00578A53 /* Feed.swift in Sources */,

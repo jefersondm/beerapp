@@ -49,11 +49,7 @@ class NewViewController: UIViewController {
         self.statusLabel.text = textStatus
         self.createDateLabel.text = textCreateDate
         
-        //setupViewStyle()
-       
         
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -61,37 +57,5 @@ class NewViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func setupViewStyle(){
-        viewInfos.layer.borderWidth = 1
-        viewInfos.layer.cornerRadius = 10
-        viewInfos.layer.borderColor = UIColor.grayColor().CGColor
-        
-        detailImg.layer.cornerRadius = 10;
-        detailImg.layer.masksToBounds = true;
-        
-        detailImg.layer.borderColor = UIColor.grayColor().CGColor;
-        detailImg.layer.borderWidth = 0.5;
-        
-        detailImg.layer.contentsScale = UIScreen.mainScreen().scale;
-        detailImg.layer.shadowColor = UIColor.blackColor().CGColor;
-        detailImg.layer.shadowOffset = CGSizeZero;
-        detailImg.layer.shadowRadius = 5.0;
-        detailImg.layer.shadowOpacity = 0.5;
-        detailImg.layer.masksToBounds = false;
-        detailImg.clipsToBounds = false;
-        
-    }
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

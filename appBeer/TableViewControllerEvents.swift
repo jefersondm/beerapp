@@ -34,11 +34,11 @@ class TableViewControllerEvents: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
+    
 
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(self.feed)
+       
         if(feed != nil) {
             return (feed?.items.count)!
         }
